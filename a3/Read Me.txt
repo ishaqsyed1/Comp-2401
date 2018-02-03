@@ -1,0 +1,16 @@
+Purpose: The Purpose of this assignment is to manipulate data taken from employees and students.
+Name and Date: Nicholas Kazan, 101029215; November 7, 2017.
+
+The program has 4 .c files and 5 .h files.
+
+The following steps explain how to compile and run the file...
+1. Open the terminal and locate the assignment3 folder using 'cd'.
+2. Use 'gcc uni.c' to compile the files.
+3. Use './a.out' to run the program after you've compiled.
+4. Done! The program should be up and running.
+
+The program is limited to the names of employees and students that it creates. The user may not add their own people.
+
+A menu will pop up once the program is running, and it explains everything the user can do with the software. The options allowed involve printing out the structures in various ways and manipulating the order to pick one student to display.
+
+

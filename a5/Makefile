@@ -1,0 +1,7 @@
+main: isPrime singlePrime
+
+isPrime : isPrime.c
+	gcc -o isPrime isPrime.c
+
+singlePrime : singlePrime.c isPrime
+	gcc -o singlePrime singlePrime.c

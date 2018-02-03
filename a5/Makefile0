@@ -1,0 +1,2 @@
+isPrime: isPrime.c
+	gcc -o isPrime isPrime.c

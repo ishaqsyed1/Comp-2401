@@ -1,0 +1,8 @@
+main3: isPrime multiSpawn
+	
+isPrime : isPrime.c
+	gcc -o isPrime isPrime.c
+
+multiSpawn : multiSpawn.c isPrime
+	gcc -o multiSpawn multiSpawn.c
+
